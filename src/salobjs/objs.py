@@ -1,5 +1,4 @@
-'''
-    
+'''A collection of low level classes.
 '''
 from    collections import  OrderedDict 
 
@@ -7,7 +6,7 @@ class NNObj (
     ):
     '''An object that never returns None (Never None Obj).
 
-        `NNObj` behavior tries to memmic the behavior of the coalescing operator `?` or `??` in other languages. 
+        `NNObj` provides a way for safe `None` dereferencing . 
 
         Example:
             >>> from salobj import NNObj
